@@ -21,11 +21,11 @@ app = dash.Dash(external_stylesheets=["./assets/html-components.css", dbc.themes
 ###------------DATOS
 server = app.server
 cwd = os.getcwd()
-Final_dir = cwd + "./Datos/Final/"
-graphs_dir = cwd + "./graphs/"
+Final_dir = cwd + "/Datos/Final/"
+graphs_dir = cwd + "/graphs/"
 df = pd.read_csv(Final_dir + "final_Datos_presente.csv")
 df_futuro = pd.read_csv(Final_dir + "final_Datos_futuro.csv")
-logo_image = "./assets/kfc.png"
+logo_image = "/assets/kfc.png"
 
 canales = sorted(df["canal"].unique())
 restaurantes = sorted(df["nom_rest"].unique())
