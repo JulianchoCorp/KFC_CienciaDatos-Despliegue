@@ -1005,4 +1005,4 @@ def update_transacciones_por_canal_y_restaurante_fut(selected_restaurants, selec
     
     return fig
 if __name__ == '__main__':
-    app.run_server(host='0.0.0.0', port=5000, debug=True)
+    app.run_server(debug=True)
