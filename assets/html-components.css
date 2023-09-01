@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* Aplicar la fuente Pacifico a los elementos específicos */
+body {
+  font-family: 'Anton', sans-serif;
+}
+*
+{
+    font-family: sans-serif;
+}*
+
+.analisis-title {
+    font-size: 24px;
+    text-align: center;
+    color: #a3080c;
+    margin-bottom: 20px;
+    width: 100%; /* Equivalente a "size": 6 */
+    margin-left: 25%; /* Equivalente a "offset": 2 (2/12 = 16.66667%) */
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+.doble-title {
+    font-size: 24px;
+    text-align: center;
+    color: #a3080c;
+    margin-bottom: 20px;
+    width: 50%; /* Equivalente a "size": 6 */
+    margin-left: 25%; /* Equivalente a "offset": 2 (2/12 = 16.66667%) */
+
+}
+.texto-graficos {
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 10%;
+    color: #000000;
+    
+}
+
+.texto-resumen {
+    font-size: 18px;
+    text-align: justify;
+    color: #000000;
+    
+}
+.centrar-titulos {
+    justify-content: r;
+    align-content: center;
+}
+.title {
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: #a3080c;
+    font-weight: bold;
+    width: 50%; /* Equivalente a "size": 6 */
+    margin-left: 25%; /* Equivalente a "offset": 2 (2/12 = 16.66667%) */ 
+}
+.texto-enunciado {
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 11%;
+    color: #000000;
+    margin-top: -5%;
+    
+}
+.title-enunciado {
+    font-family: 'Arial black', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #a3080c;
+    font-weight: bold;
+    width: 100%; /* Equivalente a "size": 6 */
+    margin-left: -20%;
+    margin-top: 5%;
+    
+}
+.title-enunciado1 {
+    font-family: 'Arial black', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #a3080c;
+    font-weight: bold;
+    width: 100%; /* Equivalente a "size": 6 */
+    margin-left: -17%;
+    margin-top: 3%;
+    
+}
+.grafico {
+
+    margin-top: -1%;
+    
+}
+
+/* Cambiar el color de fondo de los días */
+.DayPicker-Day {
+  background-color: #a3080c !important;
+}
+
+/* Cambiar el color del texto de los días */
+.DayPicker-Day, .DayPicker-Day:focus, .DayPicker-Day:hover {
+  color: white !important;
+}
+
+/* Ajustar el alto de los días */
+.DayPicker-Day {
+  height: 60px !important;
+}
+
+
